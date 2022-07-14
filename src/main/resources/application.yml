@@ -1,0 +1,28 @@
+server:
+  port: 9091
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+#in bootstrap.yml
+
+#  cloud:
+#    config:
+#      enabled: true
+#      uri: http://localhost:9296
+
+#Now coming form github n config server
+
+#eureka:
+#  client:
+#    register-with-eureka: true
+#    fetch-registry: true
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    hostname: localhost
+
+
